@@ -302,11 +302,68 @@ position:absolute;
 }
 
 
+/* bottom part style design */
+.bottom{
+    background-color: rgba(1, 172, 253, 1);
+    color: white;
+    display: flex;
+
+    margin-top: 40px;
+
+    padding: 50px;
+  
+
+}
+.bottom-title{
+    font-size: 2.5rem;
+    font-weight: 700;
 
 
+}
+
+.bottom-description{
+    font-size: 1.25ren;
+    font-weight: 500;
+  
+}
+
+.bottom h3{ font-size: 1.5rem;
+
+}
 
 
+.bottom li {
+ list-style: none;
+ font-size: 1.25rem;
+position:relative;
+right: 35px;
 
+}
+
+.bottom-1{max-width: 30%;
+    margin: auto;
+
+}
+  .bottom-2 h3{
+    margin-top: 50px;
+    
+  }
+
+  .bottom-3 h3{
+    margin-top: -38px;
+  }
+.bottom-2, .bottom-3 {
+    max-width: 20%;
+    margin: auto;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+.fa-brands{
+background-color: rgb(80, 38, 208);
+padding: 10px;
+}
 
 
 
@@ -435,6 +492,60 @@ margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
     
 }
+
+
+.btn3 {
+    left: 100px;
+   
+}
+
+
+/* bottom section design  */
+
+
+.bottom {
+
+    margin-top: 0px; 
+    padding: 0;
+    flex-direction: column;
+}
+
+
+.bottom-1 
+    {max-width: 90%; 
+
+}
+
+.bottom-2{
+    max-width: 90%;
+margin: auto;
+
+}
+.bottom-3{
+    max-width: 90%;
+    margin: auto;
+}
+
+
+
+.bottom li {
+    list-style: none;
+    font-size: 1.25rem;
+   position:relative;
+   right: px;
+   
+   }
+   .bottom-2 h3{
+    margin-top: 0;
+    
+  }
+  .bottom-3 h3{
+    margin-top: 0;
+  }
+
+
+
+
 
 }
 
