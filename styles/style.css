@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+    
+ 
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+
+
+header{ display: flex;
+    justify-content: space-around;
+
+}
+header p{
+    font-weight: 700;
+    color: black;
+    font-size: 1.75rem;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+align-items: flex-end
+;
+}
+nav li{list-style: none; 
+margin-right: 20px;}
+
+nav a{
+    text-decoration: none;
+    
+}
+nav .li{ 
+    margin-left:50px ;
+
+}
+
+.a1,.a2,.a3,.a4{ 
+font-size: 1.25rem;
+font-weight: 700;
+
+}
+
+.a1{
+    color: rgba(254, 163, 1, 1);
+}
+.a2{
+    color:rgba(1, 172, 253, 1)
+}
+.a3{
+    color: rgba(5, 212, 223, 1);
+}
+.a4{
+    color: rgba(93, 88, 239, 1);
+}
+
+nav li > button{
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+
+
+/* banner section design  */
+main{
+    background-image: url(../assets/bg.png);
+}
+
+
+.banner{
+    display: flex;
+    
+   
+}
+.banner-details{
+    max-width: 48%;
+    margin: 0 auto;
+    margin-right: 0;
+
+}
+.banner-title {  font-size: 3.5rem;
+    font-weight: 700;
+    
+
+}
+
+.span1{
+    color: orange;
+}
+.span2{ color: skyblue;}
+
+
+
+.banner-description{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: black;
+}
+
+
+.banner-btn{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+
+background-color: black;
+padding: 10px 47px;
+border-radius: 12px;
+}
+
+
+.banner-image{
+    max-width: 30%;
+    margin: auto;
+    margin-left: 20px;
+}
+/* standar section design  */
+.standard h2{
+    font-weight: 700;
+    font-size: 2.75rem;
+    text-align: center;
+}
+
+
+.baby{
+    display: flex;
+    max-width: 75%;
+    margin: auto;
+
+}
+.baby div{
+margin: 20px; background-color: rgb(244, 253, 255);
+border-radius: 13px;
+display: grid;
+place-items: center;
+}
+
+
+
+
+.kinder-title{
+    font-size:1.5rem;
+    font-weight:700 ;
+    color: black;
+    text-align: center;
+}
+
+
+.kinder-description{
+    font-size: 1rem ;
+    font-weight: 500;
+    color: rgba(128, 128, 128, 1);
+    text-align: center;
+}
+.btnb{
+    color: rgba(100, 200, 255, 1);
+        background-color:  rgb(244, 253, 255);
+        border: none;
+        font-weight: 700;
+    }
+
+.btno{
+    color: orange;
+    background-color:  rgb(244, 253, 255);
+        border: none;
+        font-weight: 700;
+}
+
+.btnp{
+    color: rgba(135, 0, 255, 1);
+    background-color:  rgb(244, 253, 255);
+    border: none;
+    font-weight: 700;
+}
+
+.arrow
+{
+    text-align: center;
+}
+
+.arrow .fa-solid{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+/* storysection design 
+ */
+
+ .story h3{
+    font-weight: 700;
+    font-size: 2.8rem;
+    text-align: center;
+ }
+.story-box{
+    max-width: 80%;
+    
+    margin: auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    
+}
+ .story-box img{
+    width: 100%;
+    border-top-left-radius: 15px;
+
+    border-top-right-radius:15px ;
+   
+ }
+
+
+ #sb1{ 
+    grid-row: span 2;
+    grid-column:  span 2  ;
+ }
+ .story-box1,.story-box2{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+   border: .01px solid rgb(244, 241, 241);
+ }
+
+ .story-box1 h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+   
+    width: 80%;
+
+ }
+ .story-box1 p{
+    font-size: 1rem;
+    font-weight: 500;
+    width: 80%;
+   
+ }
+
+ .story-box2 h4{font-size: 1rem;
+    font-weight: 700;
+
+ }
+
+
+ .hi{
+    margin: 20px;
+ }
+
+
+ #btn1{ border-radius: 18px;
+    color: white;
+    background-color: rgba(60, 216, 232, 1);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 15px;
+border: NONE;
+margin-top: -65px;
+position:absolute;
+ }
+
+.btn2{border-radius: 18px;
+    color: white;
+    background-color: rgba(149, 178, 38, 1);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 15px;
+        border: NONE;
+
+margin-top: -50px;
+position:absolute;
+}
+
+.btn3{
+    background-color: black;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 10px 60px;
+    position: relative;
+    left: 640px;
+    margin-top: 50px;
+}
+
+
+
+
+.invisible{
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+
+
+    header {
+        flex-direction: column;
+    }
+header p {
+    text-align: center;
+
+}
+nav ul {
+    text-align: center;
+    flex-direction: column;
+    padding-left:0 ;
+}
+
+
+nav .li {
+    margin: auto;
+}
+
+
+nav li {
+   
+    margin: auto;
+   
+}
+
+.banner{
+    border-top: 1px solid orange;
+    flex-direction: column-reverse;
+}
+
+.banner-details {
+    max-width: 90%;
+    margin: auto; 
+    display: grid;
+    place-items: center;
+   
+}
+.banner-title{
+    font-size: 32px;
+ text-align: center;
+}
+
+
+.banner-description{
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+.banner-btn{
+ 
+    
+
+    padding: 6px 24px;
+    font-size: 16px;
+}
+
+.banner-image{
+max-width: 90%;
+margin: 0 auto;
+}
+
+.banner-image img{
+    width: 100%;
+}
+
+.hide{display: none;}
+
+/* standard section design */
+.baby {
+    
+     max-width: 100%;
+     flex-direction: column;
+     
+}
+
+.standard h2{
+    font-weight: 700;
+    font-size: 26px;
+}
+
+
+
+.baby div { margin: 10px;}
+
+
+
+
+
+/* stor section design  */
+
+.story-box {
+    max-width: 100%;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
